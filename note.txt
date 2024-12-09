@@ -1,0 +1,27 @@
+
+src/main ---> This is used to write the generic utilities of the framework
+src/test ---> This is where we write the actual test cases or do the actual coding
+pom.xml ----> Heart of any maven project because it can manage external libraries and it can help us execute the code in our absence
+src/main/java ---> It consists of only coding related files
+src/test/java
+src/test/resources ---> It Consists of non coding related files src/main/resources
+--------------------------------------------------------
+First is that we need to create a package under src/main/java
+or src/main/resources or any src/test/
+When we give a package name, always the first letter should be a small letter
+We need to follow camel case
+Ex: durgeshMishra
+When we give a class name, always the first letter should be a capital letter
+We need to follow pascal case syntax
+Ex: AdityaKumar
+/Prints the data onto the console System.out.println("Hello World");
+//Shortcut for writing System.out.println()
+//type sout followed by enter key System.out.println("This is my first program");
+
+BODMAS rule need to be followed-
+
+        //ASCII Ranges:
+        //A - Z = 65-90
+        //a - z = 97-122
+        //0- 9  = 48-57
+        // =32
