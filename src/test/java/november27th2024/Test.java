@@ -24,7 +24,7 @@ public class Test {
 String str= " Counting characters in a string";
         System.out.println("character at index 10:" +str.charAt(10));
         String str1= "HelloWorld";
-                String str2= str.substring(5);
+                String str2= str.substring(5); //substring : starts from index 5(world)
                 String str3="World";
         System.out.println(str2==str3);
         System.out.println(str2.equals(str3));
