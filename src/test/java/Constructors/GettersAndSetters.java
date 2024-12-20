@@ -1,16 +1,19 @@
 package Constructors;
 
-public class GettersAndSetters {
-    import lombok.AllArgsConstructor;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+public class GettersAndSetters {
+
 
 //Encapsulation --> Binding the data with the methods
 //Data Hiding --> Hiding the data from the outside world
 
     //Setters and getters comes under the concepts of POJO (Plain old JAVA Object)
     @Setter
+
     @Getter
     @AllArgsConstructor
     @NoArgsConstructor
@@ -20,11 +23,11 @@ import lombok.Setter;
         private String middleName;
         private String lastName;
 
-//    public Names(String firstName, String middleName, String lastName)
-//    {
+//   public Names(String firstName, String middleName, String lastName)
+//   {
 //        this.firstName=firstName;
 //        this.middleName=middleName;
-//        this.lastName=lastName;
+//       this.lastName=lastName;
 //    }
 
 //    public void setFirstName(String fName)
@@ -72,23 +75,23 @@ import lombok.Setter;
             //CRUD Operations --> Create Read Update Delete
 
             //Creating the Data
-            Names n1=new Names("John", "Wick", "Doe");
+            //Names n1= new Names("John", "Wick", "Doe");
 
-            n1.display(); //Read Operation
+           // n1.display(); //Read Operation
 
             System.out.println("**************************************************************************");
 
-            n1.setFirstName("Johny"); //Update Operation
+           // n1.setFirstName("Johny"); //Update Operation
 
-            n1.display(); //Read Operation
+            //n1.display(); //Read Operation
 
-            System.out.println(n1.getLastName());
+            //System.out.println(n1.getFirstName());
 
             //Delete operation
-            n1=null;
+           // n1=null;
 
             //Throws Null Pointer Exception, if we are trying to perform any operations on the null objects
-            System.out.println(n1.getFirstName());
+            //System.out.println(n1.getFirstName());
         }
     }
 }
