@@ -1,7 +1,7 @@
 package Abstract;
 
 
-    public class ImplementingClasses extends AbstractClasses {
+    public class ImplementingClasses extends AbstConcepts {
 
         @Override
         void display() {

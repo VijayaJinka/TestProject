@@ -1,6 +1,4 @@
-package BreakoutRoom;
-
-import BuilderPractice.BankingSite;
+package BreakoutRoomInterfaceAssignment;
 
 public class Grandparent {
     public static void main(String[] args) {

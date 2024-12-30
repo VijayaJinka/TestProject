@@ -1,4 +1,4 @@
-package BreakoutRoom;
+package BreakoutRoomInterfaceAssignment;
 
 public class ParentClass extends Grandparent {
 
