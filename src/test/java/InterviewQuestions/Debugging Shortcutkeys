@@ -1,0 +1,24 @@
+Shortcut for putting a breakpoint and removing a breakpoint: Ctrl + Shift + B
+Shortcut for executing a particular line of code: F6
+Shortcut for executing the entire program or switch to the next breakpoint: F8
+Shortcut for going inside the method : F5
+
+In Intellij if we want to inspect a value during debugging:
+
+1. Highlight the expressions that you want to inspect
+2. Ctrl+U to inspect the value of the expression
+3. Click on evaluate expression to see the value of the expression
+
+In Eclipse:
+
+1. Highlight the expressions that you want to inspect
+2. Press Ctrl+Shift+I to inspect the value of the expression
+
+In NetBeans:
+
+1. Highlight the expressions that you want to inspect
+
+IN VS Code:
+
+1. Highlight the expressions that you want to inspect
+2. Press Ctrl+Shift+Y to inspect the value of the expression
