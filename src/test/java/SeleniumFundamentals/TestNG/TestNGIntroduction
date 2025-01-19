@@ -1,0 +1,30 @@
+Cédric Beust is the developer of the TestNG framework.
+
+These many days we are writing our test cases or test logics inside a main method(). We can have at max one main method per class
+If we want to develop 1000 test cases, then we need 1000 files.
+
+Prior to TESTNG, the only testing framework in JAVA was JUNIT.
+
+Purpose of JUNIT was to do a unit testing of the code, but it cannot be used for an end to end testing
+
+TESTNG is a testing framework inspired from JUNIT and NUnit (C#), but introducing some new functionalities that make it more powerful and easier to use
+
+TESTNG is applicable for JAVA only and it can be used in Selenium, Playwright and Rest Assured
+
+Features of TESTNG:
+1. Annotations
+2. Complete Control over the execution of test cases
+3. Parallel Execution
+4. Parameterization of test cases
+5. Setting the Priority of test cases
+6. Grouping of test cases
+7. Creating a dependency between test cases
+8. Reporting
+9. Supported by various editors like Eclipse, IntelliJ, NetBeans
+10. Support for Data Driven Testing using DataProvider
+11. Supports End to End Testing, Unit Testing, Regression Testing etc.
+
+Different Programming languages have different testing frameworks:
+1. Python - Pytest
+2. C# - NUnit
+3. JS/TS - Jasmine, Mocha

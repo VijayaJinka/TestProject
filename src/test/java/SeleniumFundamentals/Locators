@@ -1,0 +1,37 @@
+Id:
+driver.findElement(By.id("username")).sendKeys("admin");
+Name
+driver.findElement(By.name("username")).sendKeys("admin");
+Partial Linktext
+driver.findElement(By.partialLinkText("text of the link"));
+
+Linktext
+driver.findElement(By.linkText("text of the link"));
+
+Tagname
+
+driver.findElement(By.tagname("th1"));
+
+Xpath
+Absoulte: /html/body/header/div/nav/a[2] (Provided the complete path of the element
+Relative xpath:
+//tagname[@attribute='value']
+//tagname[@attribute1='value' and @attribute2='value']
+/tagName[contains(@attribute,'value')]
+//tagName[starts-with(@attribute,'value')]
+//tagName[text()='value']
+//tagName[contains(text(),'value')]
+//tagName[normalize-space(text())='value']
+//tagName[@attribute='value' and text()='value']
+//tagName[@attribute='value']/descendant::anotherTagName
+Syntax of using parent in Xpath:
+        // //tagName[@attribute='value']/parent::anotherTagName
+ //table[@id='table_active']/descendant::a[normalize-space(text())='Jrue Holiday']/parent::td
+
+        /Syntax of using following-sibling in xpath:
+                // //tagName[@attribute='value']/following-sibling::anotherTagName
+ //table[@id='table_active']/descendant::a[normalize-space(text())='Jrue Holiday']/parent::td/following-sibling::td[6]/span
+
+  //Syntax of using child in xpath:
+        // //tagName[@attribute='value']/anotherHTMLTagName
+        // //select[@name='team']/option[text()='MIA Heat']
