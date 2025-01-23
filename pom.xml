@@ -29,6 +29,8 @@
         <lombok-version>1.18.36</lombok-version>
         <selenium-version>4.27.0</selenium-version>
         <webdrivermanager-version>5.9.2</webdrivermanager-version>
+        <testng-version>7.10.2</testng-version>
+
     </properties>
 
 
@@ -68,6 +70,16 @@
             <artifactId>webdrivermanager</artifactId>
             <version>${webdrivermanager-version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng-version}</version>
+            <scope>test</scope> <!-- Library can be used only in src/test/java -->
+        </dependency>
+
+
+
 
 
     </dependencies>
