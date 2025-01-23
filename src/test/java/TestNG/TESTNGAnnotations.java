@@ -1,4 +1,4 @@
-package SeleniumFundamentals.TestNG;
+package TestNG;
 import org.testng.annotations.*;
 
 public class TESTNGAnnotations {
