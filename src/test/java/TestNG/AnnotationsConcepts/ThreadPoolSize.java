@@ -1,4 +1,4 @@
-package TestNG;
+package TestNG.AnnotationsConcepts;
 
 
 import framework.BrowserUtil;

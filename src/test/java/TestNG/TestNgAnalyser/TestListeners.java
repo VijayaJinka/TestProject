@@ -1,4 +1,4 @@
-package TestNG;
+package TestNG.TestNgAnalyser;
 
 
     import org.testng.ITestContext;
