@@ -1,8 +1,9 @@
 package TestNG.Pratices123;
 
 import jdk.jfr.Description;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(TestNG.Pratices123.Listeners.class)
 public class TENGPRACTICE {
     @Test(priority = 1,invocationCount = 3)
     public void login(){

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="Browser" value="chrome">
+    <parameter name="URL" value="https://google.com"></parameter>
+    </parameter>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/rajen/IdeaProjects/Selenium/src/test/java/TestNG/Pratices123/TENGPRACTICE.java">
+        <classes>
+            <class name="TestNG.Pratices123.TENGPRACTICE">
+                <methods>
+                    <include name="login"/>
+                    <include name="Telemetrypage"/>
+                    <include name="Topology"/>
+                    <include name="Forms"/>
+                    <include name="certification"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/rajen/IdeaProjects/Selenium/src/test/java/TestNG/Pratices123/Parametr.java">
+        <classes>
+            <class name="TestNG.Pratices123.Parametr">
+                <methods>
+                    <include name="Browser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/rajen/IdeaProjects/Selenium/src/test/java/TestNG/Pratices123/Groups.java">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/rajen/IdeaProjects/Selenium/src/test/java/TestNG/Pratices123/Ann.java">
+        <classes>
+            <class name="TestNG.Pratices123.Ann">
+                <methods>
+                    <include name="certificate"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

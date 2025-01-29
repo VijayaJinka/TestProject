@@ -1,14 +1,14 @@
-package SeleniumFundamentals;
+package SeleniumFundamentals.Launching;
 
-import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class LaunchApplications {
+public class LaunchingApplications {
 
-
-        public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
 
         //1st Way of launching the chrome browser
         //To mention the path of the chrome driver.exe file
@@ -59,5 +59,4 @@ public class LaunchApplications {
 
         Thread.sleep(10000);
     }
-
 }

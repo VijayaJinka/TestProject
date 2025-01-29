@@ -1,4 +1,4 @@
-package SeleniumFundamentals;
+package SeleniumFundamentals.LocatorFundamentals;
 
 public class Locator_XPATH_AXES {
     public static void main(String[] args) {

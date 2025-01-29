@@ -1,4 +1,4 @@
-package SeleniumFundamentals;
+package SeleniumFundamentals.LocatorFundamentals;
 
 import framework.BrowserUtil;
 import org.openqa.selenium.By;

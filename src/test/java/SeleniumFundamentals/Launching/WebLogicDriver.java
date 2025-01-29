@@ -1,4 +1,4 @@
-package SeleniumFundamentals;
+package SeleniumFundamentals.Launching;
 
 import lombok.SneakyThrows;
 import org.openqa.selenium.WebDriver;

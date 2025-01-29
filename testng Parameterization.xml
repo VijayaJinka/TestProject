@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/rajen/IdeaProjects/Selenium/testng.xml">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/rajen/IdeaProjects/Selenium/src/test/java/TestNG">
+        <classes>
+            <class name="TestNG.Pratices123.Ann">
+                <methods>
+                    <include name="certificate"/>
+                </methods>
+            </class>
+            <class name="TestNG.Pratices123.TENGPRACTICE">
+                <methods>
+                    <include name="login"/>
+                    <include name="Telemetrypage"/>
+                    <include name="Topology"/>
+                    <include name="Forms"/>
+                    <include name="certification"/>
+                </methods>
+            </class>
+            <class name="TestNG.SampleDataProvider">
+                <methods>
+                    <include name="validateSumOfNumbers"/>
+                </methods>
+            </class>
+            <class name="TestNG.SampleTestCaseFiles">
+                <methods>
+                    <include name="sampleTest"/>
+                    <include name="sampleTestFour"/>
+                    <include name="sampleTestTWo"/>
+                    <include name="sampleTestThree"/>
+                </methods>
+            </class>
+            <class name="TestNG.TESTNGAnnotations">
+                <methods>
+                    <include name="testMethodOne"/>
+                    <include name="testMethodTwo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/rajen/IdeaProjects/Selenium/src/test/java/SeleniumFundamentals">
+        <classes/>
+    </test>
+    <test verbose="2" preserve-order="true" name="C:/Users/rajen/IdeaProjects/Selenium/src/test/java/Pratice">
+        <classes/>
+    </test>
+</suite>

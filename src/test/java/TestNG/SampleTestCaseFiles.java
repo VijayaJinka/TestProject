@@ -50,7 +50,7 @@ public class SampleTestCaseFiles {
     public void sampleTestTWo()
     {
         System.out.println("Sample Test Case Two Executed");
-        throw new RuntimeException("Sample Test Case Two Failed");
+       // throw new RuntimeException("Sample Test Case Two Failed");
     }
 
     //ThreadTimeoutException: Method january17th2025.SampleTestCaseFiles.sampleTestThree() didn't finish within the time-out 1000

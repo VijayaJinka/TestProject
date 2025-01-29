@@ -1,4 +1,4 @@
-package SeleniumFundamentals;
+package SeleniumFundamentals.LocatorFundamentals;
 
 
 
